@@ -1,6 +1,129 @@
 # LeetCode Solutions Tracker
 
-**Total Solved: 29**
+**Total Solved: 35**
+
+---
+
+## 📖 How to Add a New Problem
+
+> Follow these steps exactly every time a new problem is solved.
+
+### Step 1 — Create the solution file
+
+**File path format:**
+```
+<Topic>/Day-<N>/<problem-number>-<Problem-Name-Kebab-Case>README.md
+```
+
+**Examples:**
+```
+Backtracking/Day-1/78-SubsetsREADME.md
+Arrays/Day-2/53-Maximum-SubarrayREADME.md
+```
+
+**File structure (copy this template):**
+```markdown
+# <number>. <Problem Name>
+
+[Link to LeetCode Problem](<leetcode-url>)
+
+---
+
+## 📝 Problem Statement
+
+<Brief description of the problem>
+
+### Example
+
+\`\`\`
+Input:  ...
+Output: ...
+\`\`\`
+
+---
+
+# 💡 Intuition & Approach
+
+## <Approach Name>
+
+<Explanation of the approach>
+
+---
+
+# ⏱️ Complexity Analysis
+
+## Time Complexity
+
+\`\`\`
+O(...)
+\`\`\`
+
+## Space Complexity
+
+\`\`\`
+O(...)
+\`\`\`
+
+---
+
+# 💻 Code
+
+\`\`\`cpp
+// solution here
+\`\`\`
+
+---
+
+# 🔍 Edge Cases Handled
+
+✅ ...
+
+---
+
+# 🤔 Key Takeaways (For Revision)
+
+## Main Trick
+...
+
+## Common Mistakes
+❌ ...
+
+---
+
+## Related Problems
+- ...
+
+---
+
+# 🧠 Revision Notes
+
+## Pattern Recognition
+...
+```
+
+---
+
+### Step 2 — Update this README
+
+1. **Increment** `Total Solved` count at the top.
+2. **Find the right topic section** (e.g. `## Backtracking`).
+3. **Update the solved count** in the section header (e.g. `(6 solved)` → `(7 solved)`).
+4. **Add a row** to the correct Day table (or add a new `### Day N` block if it's a new day):
+
+```markdown
+| <#> | [<Problem Name>](<Topic>/Day-<N>/<file>README.md) | <Easy/Medium/Hard> | <Pattern> |
+```
+
+5. If starting a **new topic** that shows `(0 solved)`, change it to `(1 solved)` and add the Day table below it.
+
+---
+
+### Step 3 — Git commit
+
+```bash
+git add .
+git commit -m "Add <#>. <Problem Name> [<Topic>]"
+```
 
 ---
 
@@ -105,7 +228,25 @@
 
 ---
 
-## Backtracking (0 solved)
+## Backtracking (6 solved)
+
+### Day 1
+| # | Problem | Difficulty | Pattern |
+|---|---------|------------|---------|
+| 78 | [Subsets](Backtracking/Day-1/78-SubsetsREADME.md) | Medium | Binary Choice (Take / Leave) |
+| 90 | [Subsets II](Backtracking/Day-1/90-Subsets-IIREADME.md) | Medium | Sort + Skip Duplicates on Leave |
+
+### Day 2
+| # | Problem | Difficulty | Pattern |
+|---|---------|------------|---------|
+| 46 | [Permutations](Backtracking/Day-2/46-PermutationsREADME.md) | Medium | Visited Map + For-loop |
+| 47 | [Permutations II](Backtracking/Day-2/47-Permutations-IIREADME.md) | Medium | Visited Map + Set Dedup |
+
+### Day 3
+| # | Problem | Difficulty | Pattern |
+|---|---------|------------|---------|
+| 22 | [Generate Parentheses](Backtracking/Day-3/22-Generate-ParenthesesREADME.md) | Medium | Balance Counter (cnt) |
+| 216 | [Combination Sum III](Backtracking/Day-3/216-Combination-Sum-IIIREADME.md) | Medium | Start Index + Sum Constraint |
 
 ---
 
