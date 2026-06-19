@@ -1,6 +1,6 @@
 # LeetCode Solutions Tracker
 
-**Total Solved: 35**
+**Total Solved: 43**
 
 ---
 
@@ -187,12 +187,25 @@ git commit -m "Add <#>. <Problem Name> [<Topic>]"
 
 ---
 
-## Math & Bits (1 solved)
+## Math & Bits (7 solved)
 
 ### Day 1
 | # | Problem | Difficulty | Pattern |
 |---|---------|------------|---------|
 | 136 | Single Number | Easy | XOR Cancellation |
+
+### Day 2
+| # | Problem | Difficulty | Pattern |
+|---|---------|------------|---------|
+| 231 | [Power of Two](Math-Bits/Day-2/231-Power-of-TwoREADME.md) | Easy | Bit Trick `n & (n-1)` |
+| 29 | [Divide Two Integers](Math-Bits/Day-2/29-Divide-Two-IntegersREADME.md) | Medium | Exponential Bit Doubling |
+
+### Day 3
+| # | Problem | Difficulty | Pattern |
+|---|---------|------------|---------|
+| 137 | [Single Number II](Math-Bits/Day-3/137-Single-Number-IIREADME.md) | Medium | Bit Count mod 3 |
+| 260 | [Single Number III](Math-Bits/Day-3/260-Single-Number-IIIREADME.md) | Medium | XOR + Partition by Set Bit |
+| 204 | [Count Primes](Math-Bits/Day-3/204-Count-PrimesREADME.md) | Medium | Sieve of Eratosthenes |
 
 ---
 
@@ -228,7 +241,7 @@ git commit -m "Add <#>. <Problem Name> [<Topic>]"
 
 ---
 
-## Backtracking (6 solved)
+## Backtracking (8 solved)
 
 ### Day 1
 | # | Problem | Difficulty | Pattern |
@@ -248,13 +261,24 @@ git commit -m "Add <#>. <Problem Name> [<Topic>]"
 | 22 | [Generate Parentheses](Backtracking/Day-3/22-Generate-ParenthesesREADME.md) | Medium | Balance Counter (cnt) |
 | 216 | [Combination Sum III](Backtracking/Day-3/216-Combination-Sum-IIIREADME.md) | Medium | Start Index + Sum Constraint |
 
+### Day 4
+| # | Problem | Difficulty | Pattern |
+|---|---------|------------|---------|
+| 17 | [Letter Combinations of a Phone Number](Backtracking/Day-4/17-Letter-Combinations-of-a-Phone-NumberREADME.md) | Medium | Phone Map + DFS Backtrack |
+| 131 | [Palindrome Partitioning](Backtracking/Day-4/131-Palindrome-PartitioningREADME.md) | Medium | Is-Palindrome Check + Backtrack |
+
 ---
 
 ## DP (0 solved)
 
 ---
 
-## Design (0 solved)
+## Design (1 solved)
+
+### Day 1
+| # | Problem | Difficulty | Pattern |
+|---|---------|------------|---------|
+| 208 | [Implement Trie (Prefix Tree)](Design/Day-1/208-Implement-Trie-Prefix-TreeREADME.md) | Medium | Trie Node with 26-child Array |
 
 ---
 
