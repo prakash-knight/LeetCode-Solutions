@@ -1,6 +1,6 @@
 # LeetCode Solutions Tracker
 
-**Total Solved: 43**
+**Total Solved: 58**
 
 ---
 
@@ -221,7 +221,26 @@ git commit -m "Add <#>. <Problem Name> [<Topic>]"
 
 ---
 
-## Trees (0 solved)
+## Trees (11 solved)
+
+### Day 1
+| # | Problem | Difficulty | Pattern |
+|---|---------|------------|---------|
+| 144 | [Binary Tree Preorder Traversal](Trees/Day-1/144-Binary-Tree-Preorder-TraversalREADME.md) | Easy | Recursive DFS (NLR) |
+| 94 | [Binary Tree Inorder Traversal](Trees/Day-1/94-Binary-Tree-Inorder-TraversalREADME.md) | Easy | Recursive DFS (LNR) |
+| 145 | [Binary Tree Postorder Traversal](Trees/Day-1/145-Binary-Tree-Postorder-TraversalREADME.md) | Easy | Recursive DFS (LRN) |
+| 102 | [Binary Tree Level Order Traversal](Trees/Day-1/102-Binary-Tree-Level-Order-TraversalREADME.md) | Medium | BFS + Queue Size Snapshot |
+| 110 | [Balanced Binary Tree](Trees/Day-1/110-Balanced-Binary-TreeREADME.md) | Easy | Height + Balance Check |
+
+### Day 2
+| # | Problem | Difficulty | Pattern |
+|---|---------|------------|---------|
+| 543 | [Diameter of Binary Tree](Trees/Day-2/543-Diameter-of-Binary-TreeREADME.md) | Easy | Height + Global Diameter Track |
+| 124 | [Binary Tree Maximum Path Sum](Trees/Day-2/124-Binary-Tree-Maximum-Path-SumREADME.md) | Hard | Bend vs Extend (DFS) |
+| 103 | [Binary Tree Zigzag Level Order Traversal](Trees/Day-2/103-Binary-Tree-Zigzag-Level-Order-TraversalREADME.md) | Medium | BFS + Toggle Index |
+| 987 | [Vertical Order Traversal of a Binary Tree](Trees/Day-2/987-Vertical-Order-Traversal-of-a-Binary-TreeREADME.md) | Hard | DFS + Sort (col, row, val) |
+| 199 | [Binary Tree Right Side View](Trees/Day-2/199-Binary-Tree-Right-Side-ViewREADME.md) | Medium | BFS / DFS Right-First |
+| 101 | [Symmetric Tree](Trees/Day-2/101-Symmetric-TreeREADME.md) | Easy | Recursive Mirror Check |
 
 ---
 
@@ -273,12 +292,28 @@ git commit -m "Add <#>. <Problem Name> [<Topic>]"
 
 ---
 
+## Trie (4 solved)
+
+### Day 1
+| # | Problem | Difficulty | Pattern |
+|---|---------|------------|---------|
+| 208 | [Implement Trie (Prefix Tree)](Trie/Day-1/208-Implement-Trie-Prefix-TreeREADME.md) | Medium | Trie Node with 26-child Array |
+
+### Day 2
+| # | Problem | Difficulty | Pattern |
+|---|---------|------------|---------|
+| 421 | [Maximum XOR of Two Numbers in an Array](Trie/Day-2/421-Maximum-XOR-of-Two-Numbers-in-an-ArrayREADME.md) | Medium | Binary Trie + Greedy Opposite Bit |
+| 1707 | [Maximum XOR With an Element From Array](Trie/Day-2/1707-Maximum-XOR-With-an-Element-From-ArrayREADME.md) | Hard | Offline Queries + Binary Trie |
+| 648 | [Replace Words](Trie/Day-2/648-Replace-WordsREADME.md) | Medium | Trie Shortest Prefix Match |
+
+---
+
 ## Design (1 solved)
 
 ### Day 1
 | # | Problem | Difficulty | Pattern |
 |---|---------|------------|---------|
-| 208 | [Implement Trie (Prefix Tree)](Design/Day-1/208-Implement-Trie-Prefix-TreeREADME.md) | Medium | Trie Node with 26-child Array |
+| 211 | [Design Add and Search Words Data Structure](Trie/Day-2/211-Design-Add-and-Search-Words-Data-StructureREADME.md) | Medium | Trie + DFS Wildcard |
 
 ---
 
