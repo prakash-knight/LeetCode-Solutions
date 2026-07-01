@@ -1,6 +1,6 @@
 # LeetCode Solutions Tracker
 
-**Total Solved: 58**
+**Total Solved: 75**
 
 ---
 
@@ -221,7 +221,7 @@ git commit -m "Add <#>. <Problem Name> [<Topic>]"
 
 ---
 
-## Trees (11 solved)
+## Trees (12 solved)
 
 ### Day 1
 | # | Problem | Difficulty | Pattern |
@@ -242,9 +242,22 @@ git commit -m "Add <#>. <Problem Name> [<Topic>]"
 | 199 | [Binary Tree Right Side View](Trees/Day-2/199-Binary-Tree-Right-Side-ViewREADME.md) | Medium | BFS / DFS Right-First |
 | 101 | [Symmetric Tree](Trees/Day-2/101-Symmetric-TreeREADME.md) | Easy | Recursive Mirror Check |
 
+### Day 3
+| # | Problem | Difficulty | Pattern |
+|---|---------|------------|---------|
+| 114 | [Flatten Binary Tree to Linked List](Trees/Day-3/114-Flatten-Binary-Tree-to-Linked-ListREADME.md) | Medium | Reverse Postorder + Prev Pointer |
+
 ---
 
-## BST (0 solved)
+## BST (4 solved)
+
+### Day 1
+| # | Problem | Difficulty | Pattern |
+|---|---------|------------|---------|
+| 700 | [Search in a Binary Search Tree](BST/Day-1/700-Search-in-a-Binary-Search-TreeREADME.md) | Easy | Iterative BST Search |
+| 701 | [Insert into a Binary Search Tree](BST/Day-1/701-Insert-into-a-Binary-Search-TreeREADME.md) | Medium | Iterative BST Insert (Leaf) |
+| 230 | [Kth Smallest Element in a BST](BST/Day-1/230-Kth-Smallest-Element-in-a-BSTREADME.md) | Medium | Inorder + Counter |
+| 98 | [Validate Binary Search Tree](BST/Day-1/98-Validate-Binary-Search-TreeREADME.md) | Medium | Range-Based DFS (Min/Max) |
 
 ---
 
@@ -252,11 +265,22 @@ git commit -m "Add <#>. <Problem Name> [<Topic>]"
 
 ---
 
-## Heap (0 solved)
+## Heap (2 solved)
+
+### Day 1
+| # | Problem | Difficulty | Pattern |
+|---|---------|------------|---------|
+| 23 | [Merge k Sorted Lists](Heap/Day-1/23-Merge-k-Sorted-ListsREADME.md) | Hard | Multimap Sorted Merge |
+| 347 | [Top K Frequent Elements](Heap/Day-1/347-Top-K-Frequent-ElementsREADME.md) | Medium | Frequency Map + Sort |
 
 ---
 
-## Greedy (0 solved)
+## Greedy (1 solved)
+
+### Day 1
+| # | Problem | Difficulty | Pattern |
+|---|---------|------------|---------|
+| 846 | [Hand of Straights](Greedy/Day-1/846-Hand-of-StraightsREADME.md) | Medium | Sort + Greedy Frequency Map |
 
 ---
 
@@ -288,7 +312,24 @@ git commit -m "Add <#>. <Problem Name> [<Topic>]"
 
 ---
 
-## DP (0 solved)
+## DP (9 solved)
+
+### Day 1
+| # | Problem | Difficulty | Pattern |
+|---|---------|------------|---------|
+| 70 | [Climbing Stairs](DP/Day-1/70-Climbing-StairsREADME.md) | Easy | Fibonacci DP |
+| 509 | [Fibonacci Number](DP/Day-1/509-Fibonacci-NumberREADME.md) | Easy | Linear DP (Memoization) |
+| 198 | [House Robber](DP/Day-1/198-House-RobberREADME.md) | Medium | Take/Skip DP |
+| 213 | [House Robber II](DP/Day-1/213-House-Robber-IIREADME.md) | Medium | Circular → Two Linear Passes |
+| 1911 | [Maximum Alternating Subsequence Sum](DP/Day-1/1911-Maximum-Alternating-Subsequence-SumREADME.md) | Medium | 2-State Subsequence DP |
+
+### Day 2
+| # | Problem | Difficulty | Pattern |
+|---|---------|------------|---------|
+| 62 | [Unique Paths](DP/Day-2/62-Unique-PathsREADME.md) | Medium | Grid DP (Count Paths) |
+| 63 | [Unique Paths II](DP/Day-2/63-Unique-Paths-IIREADME.md) | Medium | Grid DP + Obstacle Check |
+| 64 | [Minimum Path Sum](DP/Day-2/64-Minimum-Path-SumREADME.md) | Medium | Grid DP (Min Cost) |
+| 120 | [Triangle](DP/Day-2/120-TriangleREADME.md) | Medium | Triangle DP + Visited Array |
 
 ---
 
